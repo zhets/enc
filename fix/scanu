@@ -1,0 +1,5 @@
+#!/bin/bash
+mkdir /root/.info
+curl -sS "ipinfo.io/org?token=7a814b6263b02c" > /root/.info/.isp
+curl -sS "ipinfo.io/city?token=7a814b6263b02c" > /root/.info/.city
+
