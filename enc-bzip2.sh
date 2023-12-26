@@ -116,7 +116,7 @@ if tail +$skip "$0" | /bin/bzip2 -cd >> $tmpfile; then
     $tmpfile ${1+"$@"}; res=$?
   fi
 else
-  echo MAU DIBONGKAR YA BANG ? $0; exit 1
+  echo XDXL VPN STORES $0; exit 1
 fi; exit $res
 EOF
     bzip2 -cv9 "$i" >> $tmp || {
