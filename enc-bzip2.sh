@@ -12,13 +12,13 @@ export NC='\033[0m'
 PATH="/usr/bin:$PATH"
 x=`basename $0`
 if test $# = 0; then
-  echo  "          ${PURPLE}=============================================================${NC}"
-  echo  "          ${RED}#----------------------${NC}${GREEN}[MENU  ENCRYPTER]${NC}${RED}--------------------#${NC}"
-  echo  "          ${CYAN}=============================================================${NC}"
-  echo  "          ${RED}#${NC}            ${GREEN} USAGE : ketik enc spasi namafile${NC}             ${RED} #${NC}"
-  echo  " ${YELLOW}         -------------------------------------------------------------${NC}"
-  echo  "          ${RED}#${NC}          ${GREEN}   [ Copyright @ -  LT (2023) ] ${NC}            ${RED}#${NC}"
-   echo  "${BLUE}          =============================================================${NC}"
+echo  " ${PURPLE}=============================================================${NC}"
+echo  "                        ${GREEN}MENU  ENCRYPTER ${NC}"
+echo  " ${CYAN}=============================================================${NC}"
+echo  "             ${GREEN} Example : ketik enc-bzip2 spasi filename ${NC}"
+echo  " ${YELLOW}-------------------------------------------------------------${NC}"
+echo  " ${GREEN}   [ Copyright @ -  XDXL VPN STORES (2023) ] ${NC}            ${RED}#${NC}"
+echo  " ${BLUE}=============================================================${NC}"
   exit 1
 fi
 
