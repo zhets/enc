@@ -1,8 +1,8 @@
 # -*- coding: UTF-8 -*-
 
-# K-fuscator LT | Project
-# Author  : LunaticTunnel
-# Github  : https://github.com/LunaticTunnel
+# K-fuscator
+# Author  : XDXL_STORE
+# Github  : https://github.com/zhets
 # Language: Python(3) Python(2)
 # Date    : 20-09-2022
 
